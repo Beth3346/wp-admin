@@ -1,5 +1,5 @@
 {
-    "name": "elr/wp-admin",
+    "name": "elr/wpadmin",
     "license": "MIT",
     "description": "WordPress admin helpers",
     "homepage": "http://www.elizabeth-rogers.com",
@@ -23,11 +23,11 @@
     "require-dev": {
         "squizlabs/php_codesniffer": "^2.8"
     },
-    "autoload": {
-        "classmap": [
-            "src/Admin.php"
-        ]
-    },
+  "autoload": {
+    "psr-4": {
+      "Wpadmin\\": "src/"
+    }
+  },
     "scripts": {
         "test": [
             "phpcs"
