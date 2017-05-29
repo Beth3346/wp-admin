@@ -1,6 +1,17 @@
 <?php
 
-namespace Src;
+namespace WpAdmin;
+
+// Ensure dependencies are loaded
+
+// if (!file_exists($composer = __DIR__.'/vendor/autoload.php')) {
+//     $elrError(
+//         __('You must run <code>composer install</code> from the ELR directory.', 'elr'),
+//         __('Autoloader not found.', 'elr')
+//     );
+// }
+
+require_once $composer;
 
 class Admin
 {
