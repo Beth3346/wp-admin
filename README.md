@@ -5,7 +5,7 @@
 
 ## Dependencies
 
-* none
+* squizlabs/php_codesniffer
 
 ## Installation
 
